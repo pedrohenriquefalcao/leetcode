@@ -27,4 +27,16 @@ public class Main {
     }
 }
 
+//O código que precisei mandar no leetcode:
 
+
+//class Solution {
+//    public boolean isPalindrome(int x) {
+//        String valorOriginal = String.valueOf(x);
+//        StringBuilder tratamento = new StringBuilder(valorOriginal);
+//        tratamento.reverse();
+//        String valorInvertido = tratamento.toString();
+//
+//        return valorOriginal.equals(valorInvertido);
+//    }
+//}
